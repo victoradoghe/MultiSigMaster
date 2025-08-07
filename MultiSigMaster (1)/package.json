@@ -1,0 +1,34 @@
+{
+  "name": "multisig_wallet",
+  "version": "0.1.0",
+  "description": "A production-ready Solana multisig wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "anchor test",
+    "build": "anchor build",
+    "deploy": "anchor deploy",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "solana",
+    "anchor",
+    "blockchain",
+    "multisig",
+    "wallet"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.28.0",
+    "@solana/web3.js": "^1.77.3"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.1",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.0.0",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.1.6"
+  }
+}
